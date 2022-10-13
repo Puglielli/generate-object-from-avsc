@@ -28,5 +28,5 @@
     "test": "echo not need test lgtm",
     "generate-bin": "echo \"#!/usr/bin/env node\n\nrequire('../index')\" > ./bin/generate-avsc-json"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }

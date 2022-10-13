@@ -17,7 +17,7 @@ const addObject = (key = undefined, field) => {
   }
 
   if (equals(field.type, 'string')) return field.default ?? ''
-  if (equals(field.type, 'long')) return field.default ?? 1
+  if (equals(field.type, 'long|double')) return field.default ?? 1
   if (equals(field.type, 'enum')) return field.default ?? field.symbols[0]
   if (equals(field.type, 'boolean')) return field.default ?? false
   if (equals(field.type, 'map')) return field.default ?? {}
