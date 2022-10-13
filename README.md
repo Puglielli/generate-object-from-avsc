@@ -1,0 +1,1 @@
+# generate-object-from-avsc

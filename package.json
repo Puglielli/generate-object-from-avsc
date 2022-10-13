@@ -1,0 +1,32 @@
+{
+  "author": "puglielli",
+  "bin": "./bin/generate-avsc-json",
+  "bugs": {
+    "url": "https://github.com/puglielli/generate-object-from-avsc/issues"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "fs": "^0.0.1-security"
+  },
+  "description": "generate json data from schemas avro object",
+  "homepage": "https://github.com/puglielli/generate-object-from-avsc#readme",
+  "keywords": [
+    "avsc",
+    "avro",
+    "apache",
+    "json"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "generate-object-from-avsc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puglielli/generate-object-from-avsc.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo not need test lgtm",
+    "generate-bin": "echo \"#!/usr/bin/env node\n\nrequire('../index')\" > ./bin/generate-avsc-json"
+  },
+  "version": "0.0.1"
+}
